@@ -54,8 +54,6 @@ def retrieve_context(query: str):
     return serialized, retrieved_docs
 
 from langchain.agents import create_agent
-
-
 tools = [retrieve_context]
 # If desired, specify custom instructions
 prompt = (
