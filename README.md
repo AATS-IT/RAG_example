@@ -9,5 +9,5 @@ source venv/bin/activate
 
 install pip modules
 ```commandline
-
+pip install -e .
 ```
